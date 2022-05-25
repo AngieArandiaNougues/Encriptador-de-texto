@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<htlm lang="es"> 
+    <head>  
+    
+        <meta charset ="UTF-8"> 
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">        
+        <script type="text/javascript" src="js/script.js"></script>
+       
+        
+
+    </head> 
+        <body>
+                <header class="encabezado">
+                    <img class="logodetectivealura" src="imagenes/detectivealura.png">
+                    <h1 class="titulo-principal">Encriptador de texto...</h1>
+                    
+                    
+                </header>
+
+                    <main> 
+                        
+                            <section  class="texto-1">
+                                <img class="numero-uno" src="imagenes/numerouno.png">
+                                <textarea  type="text"  class="ingresa-texto" id="textareauno" cols="40" rows="6"  placeholder="  Ingrese el texto aquí..."></textarea>
+                                <label class="instruccion-ingreso-texto">Solo letras minúsculas y sin acentos</label>
+                                <img class="imagen-label" src="imagenes/atencion.png">
+                                <div>
+                                    <button  class="boton-encriptar" type="button" onclick="encriptar()">ENCRIPTAR</button>
+                                    <button class="boton-desencriptar" type="button"onclick="desencriptar()">DESENCRIPTAR</button>
+                                </div>
+                            </section class="texto-resultado">
+                                <img class="signodepregunta" id="signodesaparece" src="imagenes/signodepregunta.jpg">
+                                <img class="numero-dos" src="imagenes/numerodos.png">
+                                <textarea type="text" class="resultado" id="textareados" cols="18" rows="8" placeholder="Mensaje no encontrado"></textarea>
+                                <button class="boton-copiar" type="button" onclick="copiar()">COPIAR</button>
+
+                                <button title="Limpiar y volver a empezar" class="limpiar" type="button" onclick="limpiar()"> <img class="limpiar" src="imagenes/limpiarcuadros.png"></button>
+
+                                <form action="whatsapp://send/text">
+                                <button title="Envíe este mensaje a un amigo" class="whatsapp" type="submit" onclick="enviarWhatsapp()"><img class="whatsapp" src="imagenes/logowhatsapp.png"></button>
+                                </form>
+
+                                
+
+                            <section>
+
+                            </section>
+                        
+                    </main>
+
+                            <footer>
+                                <form action="https://github.com/AngieArandiaNougues?tab=repositories">
+                                <button title="Accede a mi repositorio en GitHub" class="github" type="submit"><img class="github" src="imagenes/githublogo.jpg"></button>
+                                </form>
+                                <form action="https://www.linkedin.com/in/%C3%A1ngeles-arandia-nougues-8913441a0">
+                                    <button title="Accede a mi perfil en Linkedin" class="linkedin" type="submit"><img class="linkedin" src="imagenes/linkedin.jpg"></button>
+                                    </form>
+
+                                <p class="copyright">&copy Copyright Ángeles Arandia Nougues - Challenge #1 - 2022</p>
+                                
+                            </footer>
+
+        </body>   
+        
+
+
+         
+        
+
+        
+   
+
+</htlm>
